@@ -15,3 +15,46 @@ for number in numbers:
         min_number = number
 
 print(f"Min number: {min_number}")
+
+# range function
+
+for i in range(len(list_2)):
+    print(list_2[i])
+
+# add lists
+a = [1, 2, 3]
+b = ['a', 'b', 'c']
+c = a+b
+
+print(c[-1])
+
+# creating a list from scratch
+
+list_3 = list()
+list_3.append(1)
+list_3.append(True)
+list_3.append('true')
+
+# is x in my list?
+
+print(False in list_3)
+
+# len(list) how many items
+# max(list) max value
+# min(list) min value
+# sum(list) add all values
+
+
+number_list = list()
+while True:
+    input_number = input('enter a number')
+    if input_number == 'done':
+        break
+    try:
+        number_list.append(float(input_number))
+
+    except:
+        print('invalid data')
+        continue
+
+print('average: ', sum(number_list)/len(number_list))
