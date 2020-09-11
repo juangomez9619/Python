@@ -47,6 +47,19 @@ for name in names:
     counts_2[name] = counts_2.get(name, 0) + 1
 print(counts_2)
 
+for key in counts_2:
+    print(key, counts_2[key])
+
+
+# convert key into a list
+keys_counts_2 = counts_2.keys()
+values_counts_2 = counts_2.values()
+
+# two iteration variables
+
+for key, value in counts_2.items():
+    print(key, value)
+
 
 
 
