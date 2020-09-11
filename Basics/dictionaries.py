@@ -21,3 +21,44 @@ dictionary = {'item_1': 14,
               }
 
 print(dictionary)
+
+#  counting names
+
+counts = dict()
+names = ['csev', 'cwen', 'csev', 'zqian', 'cwen']
+
+for name in names:
+    if name not in counts:
+        counts[name] = 1
+    else:
+        counts[name] = counts[name] + 1
+print(counts)
+
+
+# get method
+
+x = counts.get('Juan', False)  # it returns the second parameter if the first one is not present
+print(x)
+
+counts_2 = dict()
+names = ['juan', 'pedro', 'andres', 'juan']
+
+for name in names:
+    counts_2[name] = counts_2.get(name, 0) + 1
+print(counts_2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
