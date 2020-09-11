@@ -16,4 +16,12 @@ print(str_2.find("Juan"))  # returns the position
 
 print(str_2.startswith('My'))  # True or false
 
+# split function
 
+abc = 'Palabra_1 palabra_2 palabra_3'
+words = abc.split()
+print(words)
+
+abc_2 = 'hi;bye;hey'
+words_2 = abc_2.split(';')  # it´s possible to split a string with ant character
+print(words_2)
