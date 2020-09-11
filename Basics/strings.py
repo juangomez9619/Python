@@ -23,5 +23,5 @@ words = abc.split()
 print(words)
 
 abc_2 = 'hi;bye;hey'
-words_2 = abc_2.split(';')  # it´s possible to split a string with ant character
+words_2 = abc_2.split(';')  # it´s possible to split a string with any character
 print(words_2)
