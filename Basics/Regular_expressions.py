@@ -24,3 +24,4 @@ print(y)
 text = 'From juan.gomez@gmail.com at blablabla'
 my_email = re.findall('^From (\\S+@\\S+)', text)
 print(my_email)
+
