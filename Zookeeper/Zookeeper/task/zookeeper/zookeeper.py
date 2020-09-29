@@ -123,3 +123,23 @@ It looks like we will soon have more rabbits!"""
 animals = [camel, lion, deer, goose, bat, rabbit]
 
 # write your code here
+
+while True:
+    instruction = input('Please enter the number of the habitat you would like to view:')
+    if instruction == 'exit':
+        print("See you later!")
+        break
+    elif instruction == '0':
+        print(animals[0])
+    elif instruction == '1':
+        print(animals[1])
+    elif instruction == '2':
+        print(animals[2])
+    elif instruction == '3':
+        print(animals[3])
+    elif instruction == '4':
+        print(animals[4])
+    elif instruction == '5':
+        print(animals[5])
+
+
